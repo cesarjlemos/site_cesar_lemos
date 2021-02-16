@@ -1,0 +1,97 @@
+baseURL: https://example.com
+languageCode: en
+defaultContentLanguage: en
+title: César Lemos
+theme: KeepIt
+paginate: 12
+enableEmoji: yes
+enableRobotsTXT: yes
+googleAnalytics: ''
+disqusShortname: cesarlemos
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+blackfriday:
+  hrefTargetBlank: yes
+  nofollowLinks: yes
+  noreferrerLinks: yes
+Permalinks:
+  posts: /:year/:filename/
+menu:
+  main:
+    - name: Sobre mim
+      url: /about
+      weight: 1
+    - name: Blog
+      url: /posts/
+      weight: 2
+    - name: Portfólios
+      url: /categories/
+      weight: 3
+params:
+  author: César Lemos
+  avatar: /images/me/me2.jpg
+  baidu_verification: ''
+  bing_verification: ''
+  cdn_url: ''
+  description: ''
+  gitalk:
+    clientId: ''
+    clientSecret: ''
+    owner: ''
+    repo: ''
+  gitment:
+    clientId: ''
+    clientSecret: ''
+    owner: ''
+    repo: ''
+  google_verification: ''
+  gravatar: {}
+  home_mode: ''
+  image:
+    height: 600
+    url: cover.png
+    width: 800
+  keywords: ''
+  license: Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/"
+    target="_blank">CC BY-NC 4.0</a>
+  logo:
+    height: 40
+    url:
+    width: 127
+  pinterest_verification: ''
+  publisher:
+    logo:
+      height: 40
+      url:
+      width: 127
+    name: César Lemos
+  share:
+    Facebook: yes
+    Linkedin: yes
+    Twitter: yes
+    copyright: This work is licensed under a Creative Commons Attribution-NonCommercial
+      4.0 International License.
+  since: 2021
+  social:
+    GitHub: https://github.com/cesarjlemos/-Data-Science-and-AI-Studies
+    Linkedin: https://www.linkedin.com/in/c%C3%A9sar-lemos-4a8b124b/
+  socialShare: yes
+  subtitle: CÉSAR LEMOS | Data Scientist
+  utterances:
+    owner: ''
+    repo: ''
+  valine:
+    appId: your appId
+    appKey: your appKey
+    avatar: mm
+    enable: no
+    language: en
+    notify: no
+    placeholder: your comments ...
+    verify: no
+    visitor: yes
+  yandex_verification: ''
+author:
+  name: César Lemos
